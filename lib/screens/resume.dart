@@ -6,6 +6,7 @@ import 'package:lottie/lottie.dart';
 import '../constants/animations.dart';
 import '../constants/strings.dart';
 import '../managers/switch_native_web.dart';
+import 'dart:html' as html;
 
 class ResumePage extends StatefulWidget {
   const ResumePage({Key? key}) : super(key: key);
@@ -18,12 +19,16 @@ class _ResumePageState extends State<ResumePage> {
 
   @override
   void initState() {
-    SwitchNativeWeb.downloadFile(
-        url: "https://drive.google.com/file/d/1VA3nh4OEZLCP0r7dDXpXfurQsGmJ2qaU/view?usp=drive_link",
-        fileName: "Resume.pdf",
-        dataType: "data:document/pdf", );
+    downloadFile("https://ufile.io/xs7a4zcd" );
     super.initState();
   }
+
+  void downloadFile(String url) {
+   html.AnchorElement anchorElement =  html.AnchorElement(href: url);
+   anchorElement.download = url;
+   anchorElement.click();
+}
+
   @override
   Widget build(BuildContext context) {
     final size = MediaQuery.of(context).size;
