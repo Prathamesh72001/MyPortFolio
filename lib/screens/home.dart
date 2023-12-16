@@ -153,16 +153,18 @@ class _HomePageState extends State<HomePage> {
                       shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(15)),
                       side: BorderSide(color: Colors.deepOrange[900]!, width: 3)),
-                  child: Text(
-                    Strings.get_in_touch,
-                    style: GoogleFonts.baloo2(
-                      textStyle: TextStyle(
-                          fontSize: 18 + font_size,
-                          color: Colors.deepOrange[900],
-                          fontWeight: FontWeight.bold,
-                          fontFamily: 'baloo2'),
+                  child: Center(
+                    child: Text(
+                      Strings.get_in_touch,
+                      style: GoogleFonts.baloo2(
+                        textStyle: TextStyle(
+                            fontSize: 18 + font_size,
+                            color: Colors.deepOrange[900],
+                            fontWeight: FontWeight.bold,
+                            fontFamily: 'baloo2'),
+                      ),
+                      textAlign: TextAlign.center,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
                 Row(
