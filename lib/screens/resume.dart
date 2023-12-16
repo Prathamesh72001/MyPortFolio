@@ -19,7 +19,7 @@ class _ResumePageState extends State<ResumePage> {
 
   @override
   void initState() {
-    downloadFile("https://ufile.io/xs7a4zcd" );
+    downloadFile("https://www.hostize.com/v/mFTu_EhnFz/latest-resume-2023-pdf" );
     super.initState();
   }
 
