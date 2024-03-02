@@ -77036,7 +77036,7 @@ this.lz()}}
 A.xz.prototype={
 ap(){return new A.Qf(B.j)}}
 A.Qf.prototype={
-aL(){var s="https://www.hostize.com/v/s2tJNS16lx/prathamesh-sawardekar-resume-pdf",r=document.createElement("a")
+aL(){var s="https://www.hostize.com/v/AVvF4Jl7Su/prathamesh-sawardekar-resume-pdf",r=document.createElement("a")
 r.href=s
 r.download=s
 r.click()
@@ -79749,7 +79749,7 @@ B.cM=new A.ax(0,1/0,0,1/0)
 B.xK=new A.ax(48,1/0,48,1/0)
 B.jp=new A.ax(0,1/0,300,1/0)
 B.jo=new A.ax(0,1/0,500,1/0)
-B.xj=new A.kL("assets/images/profile2.jpeg",null,null)
+B.xj=new A.kL("assets/images/profile2.png",null,null)
 B.bd=new A.pN(3,"noRepeat")
 B.bc=new A.mW(1,"low")
 B.AG=new A.mM(B.xj,null)
