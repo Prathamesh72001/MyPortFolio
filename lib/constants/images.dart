@@ -21,7 +21,7 @@ class Images {
   static const String gmail = 'assets/images/gmail.png';
   static const String canvia = 'assets/images/canvia.jpeg';
   static const String jyppzer = 'assets/images/jyppzer.png';
-  static const String profile = 'assets/images/profile2.jpeg';
+  static const String profile = 'assets/images/profile2.png';
   static const String groccerbasket = 'assets/images/groccersbasket.jpeg';
   static const String adventuretime = 'assets/images/adventuretime.jpeg';
   static const String classmates = 'assets/images/classmates.jpeg';
